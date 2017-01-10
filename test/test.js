@@ -5,7 +5,8 @@ describe('Cash Register', function()
 {
   describe('Module C', function()
   {
-		C.getChange = function (totalPayable, cashPaid) {
+	C.getChange = function (totalPayable, cashPaid) 
+	{
 		'use strict';
 		return [50, 20, 20];    // just enough to pass :-)
 	};
@@ -20,5 +21,10 @@ describe('Cash Register', function()
       assert.equal(typeof C, 'object');
       assert.equal(typeof C.getChange, 'function');
     })
+	
+	it('getChange(486,1000) should equal [500, 10, 2, 2]', function()
+	{
+		assert.deepEqual(C.getChange(486,1000), [500, 10, 2, 2]);
+	})
   })
 }); 
