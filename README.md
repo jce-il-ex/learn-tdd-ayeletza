@@ -20,7 +20,7 @@ For students, follow these steps:
 - Name:  Ayelet Zadock
 - ID#: 20616746-2
 - github username: ayeletza
-- Estimation of hours I worked on it: An hour and half.
+- Estimation of hours I worked on it: 3 hours.
 
 If you have an improvement suggestion or a bug fix for this tutorial, please open an issue [here](https://github.com/jce-il/learn-mocha/issues) or send a PR with a fix.
 
